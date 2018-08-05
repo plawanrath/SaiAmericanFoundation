@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C88C64AF1FEC15EC006FF5D8 /* SaiDivineOlder1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88C64AE1FEC15EC006FF5D8 /* SaiDivineOlder1ViewController.swift */; };
+		C88C64B11FEC161E006FF5D8 /* SaiDivineOlder2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88C64B01FEC161E006FF5D8 /* SaiDivineOlder2ViewController.swift */; };
+		C88C64B71FEC1C0A006FF5D8 /* MagazineCurrent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C88C64B41FEC1C09006FF5D8 /* MagazineCurrent.pdf */; };
+		C88C64B81FEC1C0A006FF5D8 /* MagazineOlder1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C88C64B51FEC1C0A006FF5D8 /* MagazineOlder1.pdf */; };
+		C88C64B91FEC1C0A006FF5D8 /* MagazineOlder2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C88C64B61FEC1C0A006FF5D8 /* MagazineOlder2.pdf */; };
+		C88C64C21FEC62D9006FF5D8 /* 1-sai-baba-of-shirdi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88C64BB1FEC62D1006FF5D8 /* 1-sai-baba-of-shirdi.mp3 */; };
+		C88C64C31FEC62D9006FF5D8 /* guruji-on-god-and-mystique-india.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88C64BC1FEC62D5006FF5D8 /* guruji-on-god-and-mystique-india.mp3 */; };
+		C88C64C41FEC62D9006FF5D8 /* 5-on-education.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88C64BD1FEC62D6006FF5D8 /* 5-on-education.mp3 */; };
+		C88C64C51FEC62D9006FF5D8 /* speech-vijayawada-48-final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88C64BE1FEC62D7006FF5D8 /* speech-vijayawada-48-final.mp3 */; };
+		C88C64C61FEC62D9006FF5D8 /* 7-theme-of-universalism.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88C64BF1FEC62D8006FF5D8 /* 7-theme-of-universalism.mp3 */; };
+		C88C64C71FEC62D9006FF5D8 /* 2-role-of-the-sadguru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88C64C01FEC62D8006FF5D8 /* 2-role-of-the-sadguru.mp3 */; };
+		C88C64C81FEC62D9006FF5D8 /* 3-compassionate-living.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88C64C11FEC62D9006FF5D8 /* 3-compassionate-living.mp3 */; };
+		C88C64CC1FEC8018006FF5D8 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88C64CB1FEC8018006FF5D8 /* VideosViewController.swift */; };
+		C8F03C5A1FDCC303001BF25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C591FDCC303001BF25B /* AppDelegate.swift */; };
+		C8F03C5C1FDCC303001BF25B /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C5B1FDCC303001BF25B /* ContainerViewController.swift */; };
+		C8F03C5F1FDCC303001BF25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F03C5D1FDCC303001BF25B /* Main.storyboard */; };
+		C8F03C621FDCC303001BF25B /* SaiAmericanFoundation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C601FDCC303001BF25B /* SaiAmericanFoundation.xcdatamodeld */; };
+		C8F03C641FDCC303001BF25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F03C631FDCC303001BF25B /* Assets.xcassets */; };
+		C8F03C721FDCC303001BF25B /* SaiAmericanFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C711FDCC303001BF25B /* SaiAmericanFoundationTests.swift */; };
+		C8F03C7D1FDCC303001BF25B /* SaiAmericanFoundationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C7C1FDCC303001BF25B /* SaiAmericanFoundationUITests.swift */; };
+		C8F03C8B1FE0F6FB001BF25B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C8A1FE0F6FB001BF25B /* SideMenuViewController.swift */; };
+		C8F03C8D1FE18BA4001BF25B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C8C1FE18BA4001BF25B /* MainViewController.swift */; };
+		C8F03C8F1FE59F07001BF25B /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C8E1FE59F07001BF25B /* ContactUsViewController.swift */; };
+		C8F03C911FE61D62001BF25B /* CbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C901FE61D62001BF25B /* CbsViewController.swift */; };
+		C8F03C931FE628D8001BF25B /* TeachingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C921FE628D7001BF25B /* TeachingsViewController.swift */; };
+		C8F03C971FE63DE3001BF25B /* SaiDivineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03C961FE63DE3001BF25B /* SaiDivineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8F03C6E1FDCC303001BF25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8F03C4E1FDCC303001BF25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8F03C551FDCC303001BF25B;
+			remoteInfo = SaiAmericanFoundation;
+		};
+		C8F03C791FDCC303001BF25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8F03C4E1FDCC303001BF25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8F03C551FDCC303001BF25B;
+			remoteInfo = SaiAmericanFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C88C64AE1FEC15EC006FF5D8 /* SaiDivineOlder1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiDivineOlder1ViewController.swift; sourceTree = "<group>"; };
+		C88C64B01FEC161E006FF5D8 /* SaiDivineOlder2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiDivineOlder2ViewController.swift; sourceTree = "<group>"; };
+		C88C64B41FEC1C09006FF5D8 /* MagazineCurrent.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MagazineCurrent.pdf; sourceTree = "<group>"; };
+		C88C64B51FEC1C0A006FF5D8 /* MagazineOlder1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MagazineOlder1.pdf; sourceTree = "<group>"; };
+		C88C64B61FEC1C0A006FF5D8 /* MagazineOlder2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MagazineOlder2.pdf; sourceTree = "<group>"; };
+		C88C64BB1FEC62D1006FF5D8 /* 1-sai-baba-of-shirdi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-sai-baba-of-shirdi.mp3"; sourceTree = "<group>"; };
+		C88C64BC1FEC62D5006FF5D8 /* guruji-on-god-and-mystique-india.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "guruji-on-god-and-mystique-india.mp3"; sourceTree = "<group>"; };
+		C88C64BD1FEC62D6006FF5D8 /* 5-on-education.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "5-on-education.mp3"; sourceTree = "<group>"; };
+		C88C64BE1FEC62D7006FF5D8 /* speech-vijayawada-48-final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "speech-vijayawada-48-final.mp3"; sourceTree = "<group>"; };
+		C88C64BF1FEC62D8006FF5D8 /* 7-theme-of-universalism.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "7-theme-of-universalism.mp3"; sourceTree = "<group>"; };
+		C88C64C01FEC62D8006FF5D8 /* 2-role-of-the-sadguru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "2-role-of-the-sadguru.mp3"; sourceTree = "<group>"; };
+		C88C64C11FEC62D9006FF5D8 /* 3-compassionate-living.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3-compassionate-living.mp3"; sourceTree = "<group>"; };
+		C88C64CB1FEC8018006FF5D8 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		C8F03C561FDCC303001BF25B /* SaiAmericanFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaiAmericanFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F03C591FDCC303001BF25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8F03C5B1FDCC303001BF25B /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		C8F03C5E1FDCC303001BF25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8F03C611FDCC303001BF25B /* SaiAmericanFoundation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaiAmericanFoundation.xcdatamodel; sourceTree = "<group>"; };
+		C8F03C631FDCC303001BF25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8F03C681FDCC303001BF25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F03C6D1FDCC303001BF25B /* SaiAmericanFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaiAmericanFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F03C711FDCC303001BF25B /* SaiAmericanFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiAmericanFoundationTests.swift; sourceTree = "<group>"; };
+		C8F03C731FDCC303001BF25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F03C781FDCC303001BF25B /* SaiAmericanFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaiAmericanFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F03C7C1FDCC303001BF25B /* SaiAmericanFoundationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiAmericanFoundationUITests.swift; sourceTree = "<group>"; };
+		C8F03C7E1FDCC303001BF25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F03C8A1FE0F6FB001BF25B /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		C8F03C8C1FE18BA4001BF25B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C8F03C8E1FE59F07001BF25B /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		C8F03C901FE61D62001BF25B /* CbsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CbsViewController.swift; sourceTree = "<group>"; };
+		C8F03C921FE628D7001BF25B /* TeachingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachingsViewController.swift; sourceTree = "<group>"; };
+		C8F03C961FE63DE3001BF25B /* SaiDivineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiDivineViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8F03C531FDCC303001BF25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F03C6A1FDCC303001BF25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F03C751FDCC303001BF25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88C64A91FE64480006FF5D8 /* Magazines */ = {
+			isa = PBXGroup;
+			children = (
+				C88C64B41FEC1C09006FF5D8 /* MagazineCurrent.pdf */,
+				C88C64B51FEC1C0A006FF5D8 /* MagazineOlder1.pdf */,
+				C88C64B61FEC1C0A006FF5D8 /* MagazineOlder2.pdf */,
+			);
+			path = Magazines;
+			sourceTree = "<group>";
+		};
+		C88C64BA1FEC62B3006FF5D8 /* Teachings */ = {
+			isa = PBXGroup;
+			children = (
+				C88C64BB1FEC62D1006FF5D8 /* 1-sai-baba-of-shirdi.mp3 */,
+				C88C64C01FEC62D8006FF5D8 /* 2-role-of-the-sadguru.mp3 */,
+				C88C64C11FEC62D9006FF5D8 /* 3-compassionate-living.mp3 */,
+				C88C64BD1FEC62D6006FF5D8 /* 5-on-education.mp3 */,
+				C88C64BF1FEC62D8006FF5D8 /* 7-theme-of-universalism.mp3 */,
+				C88C64BC1FEC62D5006FF5D8 /* guruji-on-god-and-mystique-india.mp3 */,
+				C88C64BE1FEC62D7006FF5D8 /* speech-vijayawada-48-final.mp3 */,
+			);
+			path = Teachings;
+			sourceTree = "<group>";
+		};
+		C8F03C4D1FDCC303001BF25B = {
+			isa = PBXGroup;
+			children = (
+				C8F03C581FDCC303001BF25B /* SaiAmericanFoundation */,
+				C8F03C701FDCC303001BF25B /* SaiAmericanFoundationTests */,
+				C8F03C7B1FDCC303001BF25B /* SaiAmericanFoundationUITests */,
+				C8F03C571FDCC303001BF25B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8F03C571FDCC303001BF25B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8F03C561FDCC303001BF25B /* SaiAmericanFoundation.app */,
+				C8F03C6D1FDCC303001BF25B /* SaiAmericanFoundationTests.xctest */,
+				C8F03C781FDCC303001BF25B /* SaiAmericanFoundationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8F03C581FDCC303001BF25B /* SaiAmericanFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				C88C64BA1FEC62B3006FF5D8 /* Teachings */,
+				C88C64A91FE64480006FF5D8 /* Magazines */,
+				C8F03C591FDCC303001BF25B /* AppDelegate.swift */,
+				C8F03C8E1FE59F07001BF25B /* ContactUsViewController.swift */,
+				C8F03C901FE61D62001BF25B /* CbsViewController.swift */,
+				C8F03C5B1FDCC303001BF25B /* ContainerViewController.swift */,
+				C8F03C8C1FE18BA4001BF25B /* MainViewController.swift */,
+				C8F03C921FE628D7001BF25B /* TeachingsViewController.swift */,
+				C8F03C8A1FE0F6FB001BF25B /* SideMenuViewController.swift */,
+				C8F03C961FE63DE3001BF25B /* SaiDivineViewController.swift */,
+				C88C64AE1FEC15EC006FF5D8 /* SaiDivineOlder1ViewController.swift */,
+				C88C64B01FEC161E006FF5D8 /* SaiDivineOlder2ViewController.swift */,
+				C88C64CB1FEC8018006FF5D8 /* VideosViewController.swift */,
+				C8F03C5D1FDCC303001BF25B /* Main.storyboard */,
+				C8F03C631FDCC303001BF25B /* Assets.xcassets */,
+				C8F03C681FDCC303001BF25B /* Info.plist */,
+				C8F03C601FDCC303001BF25B /* SaiAmericanFoundation.xcdatamodeld */,
+			);
+			path = SaiAmericanFoundation;
+			sourceTree = "<group>";
+		};
+		C8F03C701FDCC303001BF25B /* SaiAmericanFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8F03C711FDCC303001BF25B /* SaiAmericanFoundationTests.swift */,
+				C8F03C731FDCC303001BF25B /* Info.plist */,
+			);
+			path = SaiAmericanFoundationTests;
+			sourceTree = "<group>";
+		};
+		C8F03C7B1FDCC303001BF25B /* SaiAmericanFoundationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8F03C7C1FDCC303001BF25B /* SaiAmericanFoundationUITests.swift */,
+				C8F03C7E1FDCC303001BF25B /* Info.plist */,
+			);
+			path = SaiAmericanFoundationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8F03C551FDCC303001BF25B /* SaiAmericanFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8F03C811FDCC303001BF25B /* Build configuration list for PBXNativeTarget "SaiAmericanFoundation" */;
+			buildPhases = (
+				C8F03C521FDCC303001BF25B /* Sources */,
+				C8F03C531FDCC303001BF25B /* Frameworks */,
+				C8F03C541FDCC303001BF25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaiAmericanFoundation;
+			productName = SaiAmericanFoundation;
+			productReference = C8F03C561FDCC303001BF25B /* SaiAmericanFoundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8F03C6C1FDCC303001BF25B /* SaiAmericanFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8F03C841FDCC303001BF25B /* Build configuration list for PBXNativeTarget "SaiAmericanFoundationTests" */;
+			buildPhases = (
+				C8F03C691FDCC303001BF25B /* Sources */,
+				C8F03C6A1FDCC303001BF25B /* Frameworks */,
+				C8F03C6B1FDCC303001BF25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8F03C6F1FDCC303001BF25B /* PBXTargetDependency */,
+			);
+			name = SaiAmericanFoundationTests;
+			productName = SaiAmericanFoundationTests;
+			productReference = C8F03C6D1FDCC303001BF25B /* SaiAmericanFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8F03C771FDCC303001BF25B /* SaiAmericanFoundationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8F03C871FDCC303001BF25B /* Build configuration list for PBXNativeTarget "SaiAmericanFoundationUITests" */;
+			buildPhases = (
+				C8F03C741FDCC303001BF25B /* Sources */,
+				C8F03C751FDCC303001BF25B /* Frameworks */,
+				C8F03C761FDCC303001BF25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8F03C7A1FDCC303001BF25B /* PBXTargetDependency */,
+			);
+			name = SaiAmericanFoundationUITests;
+			productName = SaiAmericanFoundationUITests;
+			productReference = C8F03C781FDCC303001BF25B /* SaiAmericanFoundationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8F03C4E1FDCC303001BF25B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Plawan Rath";
+				TargetAttributes = {
+					C8F03C551FDCC303001BF25B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					C8F03C6C1FDCC303001BF25B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8F03C551FDCC303001BF25B;
+					};
+					C8F03C771FDCC303001BF25B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8F03C551FDCC303001BF25B;
+					};
+				};
+			};
+			buildConfigurationList = C8F03C511FDCC303001BF25B /* Build configuration list for PBXProject "SaiAmericanFoundation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8F03C4D1FDCC303001BF25B;
+			productRefGroup = C8F03C571FDCC303001BF25B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8F03C551FDCC303001BF25B /* SaiAmericanFoundation */,
+				C8F03C6C1FDCC303001BF25B /* SaiAmericanFoundationTests */,
+				C8F03C771FDCC303001BF25B /* SaiAmericanFoundationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8F03C541FDCC303001BF25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88C64C81FEC62D9006FF5D8 /* 3-compassionate-living.mp3 in Resources */,
+				C88C64C41FEC62D9006FF5D8 /* 5-on-education.mp3 in Resources */,
+				C88C64C61FEC62D9006FF5D8 /* 7-theme-of-universalism.mp3 in Resources */,
+				C88C64C71FEC62D9006FF5D8 /* 2-role-of-the-sadguru.mp3 in Resources */,
+				C88C64C21FEC62D9006FF5D8 /* 1-sai-baba-of-shirdi.mp3 in Resources */,
+				C8F03C641FDCC303001BF25B /* Assets.xcassets in Resources */,
+				C88C64B81FEC1C0A006FF5D8 /* MagazineOlder1.pdf in Resources */,
+				C8F03C5F1FDCC303001BF25B /* Main.storyboard in Resources */,
+				C88C64B91FEC1C0A006FF5D8 /* MagazineOlder2.pdf in Resources */,
+				C88C64C31FEC62D9006FF5D8 /* guruji-on-god-and-mystique-india.mp3 in Resources */,
+				C88C64B71FEC1C0A006FF5D8 /* MagazineCurrent.pdf in Resources */,
+				C88C64C51FEC62D9006FF5D8 /* speech-vijayawada-48-final.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F03C6B1FDCC303001BF25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F03C761FDCC303001BF25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8F03C521FDCC303001BF25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F03C8B1FE0F6FB001BF25B /* SideMenuViewController.swift in Sources */,
+				C8F03C621FDCC303001BF25B /* SaiAmericanFoundation.xcdatamodeld in Sources */,
+				C88C64AF1FEC15EC006FF5D8 /* SaiDivineOlder1ViewController.swift in Sources */,
+				C8F03C971FE63DE3001BF25B /* SaiDivineViewController.swift in Sources */,
+				C8F03C5C1FDCC303001BF25B /* ContainerViewController.swift in Sources */,
+				C8F03C5A1FDCC303001BF25B /* AppDelegate.swift in Sources */,
+				C88C64CC1FEC8018006FF5D8 /* VideosViewController.swift in Sources */,
+				C88C64B11FEC161E006FF5D8 /* SaiDivineOlder2ViewController.swift in Sources */,
+				C8F03C8D1FE18BA4001BF25B /* MainViewController.swift in Sources */,
+				C8F03C931FE628D8001BF25B /* TeachingsViewController.swift in Sources */,
+				C8F03C8F1FE59F07001BF25B /* ContactUsViewController.swift in Sources */,
+				C8F03C911FE61D62001BF25B /* CbsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F03C691FDCC303001BF25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F03C721FDCC303001BF25B /* SaiAmericanFoundationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F03C741FDCC303001BF25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F03C7D1FDCC303001BF25B /* SaiAmericanFoundationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8F03C6F1FDCC303001BF25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8F03C551FDCC303001BF25B /* SaiAmericanFoundation */;
+			targetProxy = C8F03C6E1FDCC303001BF25B /* PBXContainerItemProxy */;
+		};
+		C8F03C7A1FDCC303001BF25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8F03C551FDCC303001BF25B /* SaiAmericanFoundation */;
+			targetProxy = C8F03C791FDCC303001BF25B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8F03C5D1FDCC303001BF25B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8F03C5E1FDCC303001BF25B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8F03C7F1FDCC303001BF25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8F03C801FDCC303001BF25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8F03C821FDCC303001BF25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X8H27KCM57;
+				INFOPLIST_FILE = SaiAmericanFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.SAF.SAIAmerican;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "36c4dfa5-cc46-41bf-b9f0-84d6b8a5da2e";
+				PROVISIONING_PROFILE_SPECIFIER = "SAI AMERICAN DISTRO CERT 2019";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C8F03C831FDCC303001BF25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X8H27KCM57;
+				INFOPLIST_FILE = SaiAmericanFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.SAF.SAIAmerican;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "36c4dfa5-cc46-41bf-b9f0-84d6b8a5da2e";
+				PROVISIONING_PROFILE_SPECIFIER = "SAI AMERICAN DISTRO CERT 2019";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C8F03C851FDCC303001BF25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaiAmericanFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SAF.SaiAmericanFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaiAmericanFoundation.app/SaiAmericanFoundation";
+			};
+			name = Debug;
+		};
+		C8F03C861FDCC303001BF25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaiAmericanFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SAF.SaiAmericanFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaiAmericanFoundation.app/SaiAmericanFoundation";
+			};
+			name = Release;
+		};
+		C8F03C881FDCC303001BF25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaiAmericanFoundationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SAF.SaiAmericanFoundationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaiAmericanFoundation;
+			};
+			name = Debug;
+		};
+		C8F03C891FDCC303001BF25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaiAmericanFoundationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SAF.SaiAmericanFoundationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaiAmericanFoundation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8F03C511FDCC303001BF25B /* Build configuration list for PBXProject "SaiAmericanFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F03C7F1FDCC303001BF25B /* Debug */,
+				C8F03C801FDCC303001BF25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8F03C811FDCC303001BF25B /* Build configuration list for PBXNativeTarget "SaiAmericanFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F03C821FDCC303001BF25B /* Debug */,
+				C8F03C831FDCC303001BF25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8F03C841FDCC303001BF25B /* Build configuration list for PBXNativeTarget "SaiAmericanFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F03C851FDCC303001BF25B /* Debug */,
+				C8F03C861FDCC303001BF25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8F03C871FDCC303001BF25B /* Build configuration list for PBXNativeTarget "SaiAmericanFoundationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F03C881FDCC303001BF25B /* Debug */,
+				C8F03C891FDCC303001BF25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C8F03C601FDCC303001BF25B /* SaiAmericanFoundation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C8F03C611FDCC303001BF25B /* SaiAmericanFoundation.xcdatamodel */,
+			);
+			currentVersion = C8F03C611FDCC303001BF25B /* SaiAmericanFoundation.xcdatamodel */;
+			path = SaiAmericanFoundation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C8F03C4E1FDCC303001BF25B /* Project object */;
+}
